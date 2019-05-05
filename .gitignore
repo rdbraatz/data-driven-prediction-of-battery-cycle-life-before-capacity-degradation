@@ -7,3 +7,6 @@ Data/
 #ignore jupyter notebook files
 .ipynb_checkpoints/
 __pycache__/
+
+# ignore ide
+.idea
