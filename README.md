@@ -1,6 +1,6 @@
 # data-driven-prediction-of-battery-cycle-life-before-capacity-degradation
 
-The code in this repository shows how to load the data associated with the paper 'Data driven prediciton of battery cycle life before capacity degradation' by K.A. Severson, P.M. Attia, et al. The data is available at [https://data.matr.io/1/](https://data.matr.io/1/).
+The code in this repository shows how to load the data associated with the paper ['Data driven prediciton of battery cycle life before capacity degradation' by K.A. Severson, P.M. Attia, et al](https://www.nature.com/articles/s41560-019-0356-8). The data is available at [https://data.matr.io/1/](https://data.matr.io/1/).
 
 This analysis was originally performed in MATLAB, but here we also provide access information in python. In the MATLAB files (.mat), this data is stored in a struct. In the python files (.pkl), this data is stored in nested dictionaries.
 
