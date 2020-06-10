@@ -9,7 +9,7 @@ min_Q = log10(100);
 CM = colormap('jet');
 
 %%
-load('./Data/Diagnostic cycling data/2018-04-03_varcharge_batchdata_updated_struct_errorcorrect.mat')
+load('./Data/2018-04-03_varcharge_batchdata_updated_struct_errorcorrect.mat')
 add_batch = batch;
 load('./Data/2018-02-20_batchdata_updated_struct_errorcorrect.mat')
 load('./Data/Diagnostic cycling data/initialdata_all.mat')
