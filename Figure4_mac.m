@@ -3,12 +3,12 @@
 clear; close all; clc
 addpath('./Code_Utils')
 
-
+%% Used in setting the colormap
 max_Q = log10(2300);
 min_Q = log10(100);
 CM = colormap('jet');
 
-%%
+%% Download these data from https://data.matr.io/1/
 load('./Data/2018-04-03_varcharge_batchdata_updated_struct_errorcorrect.mat')
 add_batch = batch;
 load('./Data/2018-02-20_batchdata_updated_struct_errorcorrect.mat')
@@ -17,7 +17,7 @@ load('./Data/Diagnostic cycling data/finaldata_6and8.mat')
 load('./Data/Diagnostic cycling data/finaldata_4.mat')
 data = {charge_4C,charge_6C,charge_8C};
 
-%%
+%% Preinitialization
 n = 3;
 idx_slownegI = cell(n,1);
 idx1 = cell(n,1);
