@@ -1,0 +1,13 @@
+#
+###### Data-Driven Prediction of Battery Cycle Life requirements.txt #######
+#
+###### Requirements without Version Specifiers ######
+jupyter
+#
+###### Requirements with Version Specifiers ######
+h5py==2.8.0
+matplotlib==3.3.4 
+numpy==1.19.2
+pandas==1.2.3
+python==3.7.10 
+scipy==1.6.1
